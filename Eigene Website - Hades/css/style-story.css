@@ -1,0 +1,114 @@
+p {
+    color: #AB76F9;
+}
+
+body {
+    background-color: #01052A;
+    overflow-x: hidden;
+    margin: 10px;
+}
+
+.navigation {
+    display: flex;                
+    justify-content: flex-end;    
+    gap: 10px;                    
+    width: 144px;                  
+    position: absolute;           
+    right: 0;                     
+    top: 0; 
+    list-style: none;
+    padding: 20px;
+}
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #AB76F9; 
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #AB76F9; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px; 
+    transition: all 0.3s ease;
+}
+  
+  .navigation a:active {
+    color: white;
+  }
+
+  .banner-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Caesar Dressing", serif;
+    color: #814ECC;
+  }
+
+  .banner {
+    height: 250px; 
+    background: url(/img/templeofstyx2.png) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    position: relative; /* Ensures it remains part of the normal flow */
+    margin: -10px;
+}
+
+.lore-section {
+    font-family: 'Alegreya Sans', sans-serif;
+  
+}
+
+.lore-container {
+    display: flex; /* Align child sections side by side */
+    justify-content: space-between; /* Add spacing between the sections */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between the two sections */
+    padding: 20px; /* Add some padding around the container */
+}
+
+.lore-text {
+    max-width: 500px;
+}
+
+
+
+.lore-images img {
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.lore-images img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer p {
+    background-color: #605f63;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

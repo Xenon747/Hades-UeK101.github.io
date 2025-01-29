@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+
+
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+body {
+  background-color: #113931;
+}
+
+.banner {
+    height: 250px; 
+    background: url(/img/hadesbanner.jpg) no-repeat center center/cover;
+    display: flex;
+    color: white; 
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .navigation {
+    display: flex;                
+    justify-content: flex-end;    
+    gap: 10px;                    
+    width: 144px;                  
+    position: absolute;           
+    right: 0;                     
+    top: 0; 
+    list-style: none;
+    padding: 20px;
+}
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #3cde3a; 
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #3cde3a; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px; 
+    transition: all 0.3s ease;
+}
+
+  .navigation a:active {
+    color: white;
+  }
+  
+  .banner-title {
+    font-size: 36px;
+    text-align: left;
+    font-family: "Caesar Dressing", serif;
+  }
+
+  .title-quote {
+    font-size: 24px;
+    margin-left: 200px;
+    color: #3cde3a;
+    font-family: 'Garamond', sans-serif; 
+  }
+
+  .intro {
+    text-align: left;
+    max-width: 400px;
+    flex: 1;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+  }
+
+  li {
+    color: #3cde3a;
+  }
+
+  li a:active , a:visited {
+    color: #3cde3a;
+  }
+
+#subtitle {
+    font-weight: bold;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .gameplay-showcase {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .features {
+    display: flex;
+    max-width: 600px;
+    justify-content:flex-start;
+    flex-direction: column;
+    flex: 2;   
+  }
+
+  aside img {
+    width: 180px;
+  }
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+  list-style: square;
+  padding-bottom: 5px;
+}
+
+
+
+  .feature h3 {
+    color: #3cde3a;
+    font-family: 'Garamond', sans-serif;
+  }
+
+
+
+  .feature p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-right: 90px;
+  }
+  
+  .awards     {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 10px;
+    flex: 1;
+  }
+  
+.footer p {
+    background-color: #605f63;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+}
+
