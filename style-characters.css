@@ -1,0 +1,129 @@
+
+
+* {
+    color: #FFE97C;
+}
+
+body {
+    background-image: url(/img/house\ hades.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+
+  .navigation {
+    display: flex;                
+    justify-content: flex-end;    
+    gap: 10px;                    
+    width: 144px;                  
+    position: absolute;           
+    right: 0;                     
+    top: 0; 
+    list-style: none;
+    padding: 20px;
+}
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #FC543A; 
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+    
+  }
+
+  nav a:hover {
+    background-color: #FC543A; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px; 
+    transition: all 0.3s ease;
+}
+  
+  .navigation a:active {
+    color: white;
+  }
+
+  .banner-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Caesar Dressing", serif;
+    color: #FFE97C;
+  }
+  .characters-container {
+    display: flex; 
+    gap: 20px; 
+}
+
+h3 {
+    font-family: 'Garamond', sans-serif; 
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.zagreus-container,
+.hades-container {
+    display: flex; 
+    gap: 20px; 
+    max-width: 600px; 
+}
+
+.zagreus-container img,
+.hades-container img {
+    width: 300px;
+    height: 400px;
+    flex-shrink: 0; 
+    transition: transform 0.3s ease;
+}
+
+.zagreus-container img:hover,
+.hades-container img:hover {
+    transform: scale(1.1);
+}
+
+.zagreus p , h3, a {
+    max-width: 400px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.zagreus a:hover {
+  color: #FC543A;
+  transition: color 0.2s ease-in-out;
+}
+
+
+.zagreus-container div,
+.hades-container div {
+    flex: 1; 
+    font-family: 'Alegreya Sans', sans-serif;
+    
+}
+
+.hades p , h3 {
+    max-width: 400px;
+    text-align: left;
+}
+
+.hades a:hover {
+  color: #FC543A;
+  transition: color 0.2s ease-in-out;
+}
+
+
+.footer p {
+    background-color: #605f63;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+

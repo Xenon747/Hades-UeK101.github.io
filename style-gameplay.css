@@ -1,0 +1,180 @@
+* {
+    color: #24E2EE;
+}
+
+body {
+    background-image: url(/img/elysium_background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+
+  .navigation {
+    display: flex;                
+    justify-content: flex-end;    
+    gap: 10px;                    
+    width: 144px;                  
+    position: absolute;           
+    right: 0;                     
+    top: 0; 
+    list-style: none;
+    padding: 20px;
+}
+  
+  .navigation a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #24E2EE; 
+    font-family: 'Garamond', sans-serif;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #24E2EE; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 1px; 
+    transition: all 0.3s ease;
+}
+  
+  .navigation a:active {
+    color: white;
+  }
+
+  .banner-title {
+    font-size: 36px;
+    text-align: center;
+    font-family: "Caesar Dressing", serif;
+    color: #24E2EE;
+  }
+
+  
+  .main-container {
+    display: flex; /* Align child sections side by side */
+    justify-content: space-between; /* Add spacing between the sections */
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between the two sections */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
+  /* Gameplay video section */
+  .gameplay-video {
+    flex: 1; /* Take up remaining space */
+    max-width: 60%; /* Optional: Limit the width of the video section */
+  }
+  
+  .gameplay-video video {
+    display: block; /* Ensures the video is block-level */
+    max-width: 100%; /* Scale the video responsively */
+    border: 2px solid #24E2EE;
+    border-radius: 2px;
+  }
+  
+  .how-to-play-container {
+    flex: 1; 
+    max-width: 40%; 
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .how-to-play p {
+    line-height: 1.5; 
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+  
+  .how-to-play h3 {
+    margin-bottom: 10px;
+    margin-top: -20px;
+    font-family: 'Garamond', sans-serif;
+
+  }
+
+  .how-to-play h4 {
+  background-color: #2E947E; /* Add a light background for clarity */
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  }
+  
+  .how-to-play ul {
+    padding-left: 20px; 
+  }
+  
+  .how-to-play ul li {
+    margin-bottom: 2px; 
+    list-style: square;
+  }
+  
+
+ .gameplay-video video {
+    display: flex;
+    border: 2px solid #24E2EE;  
+    justify-content: left;
+ }
+
+ video::-webkit-media-controls-panel {
+  background-image: linear-gradient(45deg, #24E2EE 25%, #2E947E 50%, #2E947E) !important;
+  background-size: 100% 90%; 
+  filter: brightness(1);
+  box-shadow: none !important;
+  opacity: 0; 
+  height: 20%;
+  margin-top: 300px;
+  position: relative; 
+  z-index: 1; 
+  transition: opacity 0.3s ease; 
+}
+
+video:hover::-webkit-media-controls-panel {
+  opacity: 60%; 
+}
+
+.gameplay-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.gameplay-text h3 {
+  font-family: 'Garamond', sans-serif;
+}
+
+.gameplay-text p, h3 {
+    display: flex;
+    max-width: 300px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.gameplay-text2 p {
+    display: flex;
+    max-width: 300px;
+    padding-top: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.footer p {
+    background-color: #605f63;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
